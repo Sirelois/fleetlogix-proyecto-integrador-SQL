@@ -1,0 +1,202 @@
+2026-03-24 18:17:44,471 - ERROR -  Error al conectar: 'utf-8' codec can't decode byte 0xab in position 96: invalid start byte
+2026-03-24 18:17:44,472 - INFO - 
+ Conexión cerrada
+2026-03-24 18:23:06,378 - ERROR -  Error al conectar: 'utf-8' codec can't decode byte 0xab in position 96: invalid start byte
+2026-03-24 18:23:06,380 - INFO - 
+ Conexión cerrada
+2026-03-24 18:25:48,770 - ERROR -  Error al conectar: 'utf-8' codec can't decode byte 0xab in position 96: invalid start byte
+2026-03-24 18:25:48,771 - INFO - 
+ Conexión cerrada
+2026-04-08 03:02:17,268 - INFO -  Conexión exitosa a PostgreSQL
+2026-04-08 03:02:17,270 - INFO - Generando 200 vehículos...
+2026-04-08 03:02:17,319 - INFO -  200 vehículos insertados
+2026-04-08 03:02:17,320 - INFO - Generando 400 conductores...
+2026-04-08 03:02:17,473 - INFO -  400 conductores insertados
+2026-04-08 03:02:17,473 - INFO - Generando 50 rutas...
+2026-04-08 03:02:17,488 - INFO -  50 rutas insertadas
+2026-04-08 03:02:17,488 - INFO - Generando 100000 viajes...
+2026-04-08 03:02:26,327 - INFO -   Progreso: 0/100000 trips insertados
+2026-04-08 03:02:27,640 - INFO -   Progreso: 10000/100000 trips insertados
+2026-04-08 03:02:28,927 - INFO -   Progreso: 20000/100000 trips insertados
+2026-04-08 03:02:30,274 - INFO -   Progreso: 30000/100000 trips insertados
+2026-04-08 03:02:31,612 - INFO -   Progreso: 40000/100000 trips insertados
+2026-04-08 03:02:33,118 - INFO -   Progreso: 50000/100000 trips insertados
+2026-04-08 03:02:34,726 - INFO -   Progreso: 60000/100000 trips insertados
+2026-04-08 03:02:36,343 - INFO -   Progreso: 70000/100000 trips insertados
+2026-04-08 03:02:37,722 - INFO -   Progreso: 80000/100000 trips insertados
+2026-04-08 03:02:39,197 - INFO -   Progreso: 90000/100000 trips insertados
+2026-04-08 03:02:40,601 - INFO -  100000 viajes insertados
+2026-04-08 03:02:40,613 - INFO - Generando 400000 entregas...
+2026-04-08 03:04:33,504 - ERROR -  Error durante la generación: no existe el esquema «np»
+LINE 5: ...olina Castro Cuesta', 'Calle 169Z # 40-23, Cali', np.float64...
+                                                             ^
+
+2026-04-08 03:04:33,620 - INFO - 
+ Conexión cerrada
+2026-04-08 03:06:46,965 - INFO -  Conexión exitosa a PostgreSQL
+2026-04-08 03:06:46,966 - INFO - Generando 200 vehículos...
+2026-04-08 03:06:47,009 - INFO -  200 vehículos insertados
+2026-04-08 03:06:47,010 - INFO - Generando 400 conductores...
+2026-04-08 03:06:47,167 - INFO -  400 conductores insertados
+2026-04-08 03:06:47,167 - INFO - Generando 50 rutas...
+2026-04-08 03:06:47,175 - INFO -  50 rutas insertadas
+2026-04-08 03:06:47,176 - INFO - Generando 100000 viajes...
+2026-04-08 03:06:56,662 - INFO -   Progreso: 0/100000 trips insertados
+2026-04-08 03:06:58,094 - INFO -   Progreso: 10000/100000 trips insertados
+2026-04-08 03:06:59,408 - INFO -   Progreso: 20000/100000 trips insertados
+2026-04-08 03:07:00,649 - INFO -   Progreso: 30000/100000 trips insertados
+2026-04-08 03:07:01,929 - INFO -   Progreso: 40000/100000 trips insertados
+2026-04-08 03:07:03,236 - INFO -   Progreso: 50000/100000 trips insertados
+2026-04-08 03:07:04,491 - INFO -   Progreso: 60000/100000 trips insertados
+2026-04-08 03:07:05,740 - INFO -   Progreso: 70000/100000 trips insertados
+2026-04-08 03:07:07,017 - INFO -   Progreso: 80000/100000 trips insertados
+2026-04-08 03:07:08,353 - INFO -   Progreso: 90000/100000 trips insertados
+2026-04-08 03:07:09,467 - INFO -  100000 viajes insertados
+2026-04-08 03:07:09,478 - INFO - Generando 400000 entregas...
+2026-04-08 03:09:27,697 - ERROR -  Error durante la generación: no existe el esquema «np»
+LINE 5: ...olina Castro Cuesta', 'Calle 169Z # 40-23, Cali', np.float64...
+                                                             ^
+
+2026-04-08 03:09:27,815 - INFO - 
+ Conexión cerrada
+2026-04-08 03:14:24,510 - INFO -  Conexión exitosa a PostgreSQL
+2026-04-08 03:14:24,510 - INFO - Generando 200 vehículos...
+2026-04-08 03:14:24,553 - INFO -  200 vehículos insertados
+2026-04-08 03:14:24,553 - INFO - Generando 400 conductores...
+2026-04-08 03:14:24,718 - INFO -  400 conductores insertados
+2026-04-08 03:14:24,719 - INFO - Generando 50 rutas...
+2026-04-08 03:14:24,730 - INFO -  50 rutas insertadas
+2026-04-08 03:14:24,730 - INFO - Generando 100000 viajes...
+2026-04-08 03:14:33,947 - INFO -   Progreso: 0/100000 trips insertados
+2026-04-08 03:14:35,348 - INFO -   Progreso: 10000/100000 trips insertados
+2026-04-08 03:14:36,704 - INFO -   Progreso: 20000/100000 trips insertados
+2026-04-08 03:14:38,047 - INFO -   Progreso: 30000/100000 trips insertados
+2026-04-08 03:14:39,260 - INFO -   Progreso: 40000/100000 trips insertados
+2026-04-08 03:14:40,467 - INFO -   Progreso: 50000/100000 trips insertados
+2026-04-08 03:14:41,848 - INFO -   Progreso: 60000/100000 trips insertados
+2026-04-08 03:14:43,133 - INFO -   Progreso: 70000/100000 trips insertados
+2026-04-08 03:14:44,586 - INFO -   Progreso: 80000/100000 trips insertados
+2026-04-08 03:14:46,915 - INFO -   Progreso: 90000/100000 trips insertados
+2026-04-08 03:14:48,211 - INFO -  100000 viajes insertados
+2026-04-08 03:14:48,223 - INFO - Generando 400000 entregas...
+2026-04-08 03:16:40,651 - ERROR -  Error durante la generación: no existe el esquema «np»
+LINE 5: ...olina Castro Cuesta', 'Calle 169Z # 40-23, Cali', np.float64...
+                                                             ^
+
+2026-04-08 03:16:40,814 - INFO - 
+ Conexión cerrada
+2026-04-08 03:19:36,912 - INFO -  Conexión exitosa a PostgreSQL
+2026-04-08 03:19:36,913 - INFO - Generando 200 vehículos...
+2026-04-08 03:19:36,955 - INFO -  200 vehículos insertados
+2026-04-08 03:19:36,956 - INFO - Generando 400 conductores...
+2026-04-08 03:19:37,119 - INFO -  400 conductores insertados
+2026-04-08 03:19:37,120 - INFO - Generando 50 rutas...
+2026-04-08 03:19:37,129 - INFO -  50 rutas insertadas
+2026-04-08 03:19:37,130 - INFO - Generando 100000 viajes...
+2026-04-08 03:19:47,734 - INFO -   Progreso: 0/100000 trips insertados
+2026-04-08 03:19:49,156 - INFO -   Progreso: 10000/100000 trips insertados
+2026-04-08 03:19:50,586 - INFO -   Progreso: 20000/100000 trips insertados
+2026-04-08 03:19:52,503 - INFO -   Progreso: 30000/100000 trips insertados
+2026-04-08 03:19:54,293 - INFO -   Progreso: 40000/100000 trips insertados
+2026-04-08 03:19:55,980 - INFO -   Progreso: 50000/100000 trips insertados
+2026-04-08 03:19:57,676 - INFO -   Progreso: 60000/100000 trips insertados
+2026-04-08 03:20:00,236 - INFO -   Progreso: 70000/100000 trips insertados
+2026-04-08 03:20:01,929 - INFO -   Progreso: 80000/100000 trips insertados
+2026-04-08 03:20:03,630 - INFO -   Progreso: 90000/100000 trips insertados
+2026-04-08 03:20:05,241 - INFO -  100000 viajes insertados
+2026-04-08 03:20:05,259 - INFO - Generando 400000 entregas...
+2026-04-08 03:22:33,808 - ERROR -  Error durante la generación: no existe el esquema «np»
+LINE 5: ...olina Castro Cuesta', 'Calle 169Z # 40-23, Cali', np.float64...
+                                                             ^
+
+2026-04-08 03:22:34,000 - INFO - 
+ Conexión cerrada
+2026-04-08 03:26:16,537 - INFO -  Conexión exitosa a PostgreSQL
+2026-04-08 03:26:16,537 - INFO - Generando 200 vehículos...
+2026-04-08 03:26:16,567 - ERROR -  Error durante la generación: llave duplicada viola restricción de unicidad «vehicles_license_plate_key»
+DETAIL:  Ya existe la llave (license_plate)=(UDA125).
+
+2026-04-08 03:26:16,568 - INFO - 
+ Conexión cerrada
+2026-04-08 03:26:33,319 - INFO -  Conexión exitosa a PostgreSQL
+2026-04-08 03:26:33,320 - INFO - Generando 200 vehículos...
+2026-04-08 03:26:33,365 - INFO -  200 vehículos insertados
+2026-04-08 03:26:33,365 - INFO - Generando 400 conductores...
+2026-04-08 03:26:33,548 - INFO -  400 conductores insertados
+2026-04-08 03:26:33,548 - INFO - Generando 50 rutas...
+2026-04-08 03:26:33,556 - INFO -  50 rutas insertadas
+2026-04-08 03:26:33,556 - INFO - Generando 100000 viajes...
+2026-04-08 03:26:42,197 - INFO -   Progreso: 0/100000 trips insertados
+2026-04-08 03:26:43,655 - INFO -   Progreso: 10000/100000 trips insertados
+2026-04-08 03:26:45,007 - INFO -   Progreso: 20000/100000 trips insertados
+2026-04-08 03:26:46,380 - INFO -   Progreso: 30000/100000 trips insertados
+2026-04-08 03:26:47,738 - INFO -   Progreso: 40000/100000 trips insertados
+2026-04-08 03:26:49,093 - INFO -   Progreso: 50000/100000 trips insertados
+2026-04-08 03:26:50,421 - INFO -   Progreso: 60000/100000 trips insertados
+2026-04-08 03:26:51,743 - INFO -   Progreso: 70000/100000 trips insertados
+2026-04-08 03:26:52,952 - INFO -   Progreso: 80000/100000 trips insertados
+2026-04-08 03:26:54,357 - INFO -   Progreso: 90000/100000 trips insertados
+2026-04-08 03:26:55,626 - INFO -  100000 viajes insertados
+2026-04-08 03:26:55,636 - INFO - Generando 400000 entregas...
+2026-04-08 03:28:43,176 - ERROR -  Error durante la generación: no existe el esquema «np»
+LINE 5: ...olina Castro Cuesta', 'Calle 169Z # 40-23, Cali', np.float64...
+                                                             ^
+
+2026-04-08 03:28:43,325 - INFO - 
+ Conexión cerrada
+2026-04-08 03:31:11,017 - INFO -  Conexión exitosa a PostgreSQL
+2026-04-08 03:31:11,018 - INFO - Generando 200 vehículos...
+2026-04-08 03:31:11,069 - INFO -  200 vehículos insertados
+2026-04-08 03:31:11,070 - INFO - Generando 400 conductores...
+2026-04-08 03:31:11,236 - INFO -  400 conductores insertados
+2026-04-08 03:31:11,237 - INFO - Generando 50 rutas...
+2026-04-08 03:31:11,245 - INFO -  50 rutas insertadas
+2026-04-08 03:31:11,245 - INFO - Generando 100000 viajes...
+2026-04-08 03:31:19,390 - INFO -   Progreso: 0/100000 trips insertados
+2026-04-08 03:31:21,175 - INFO -   Progreso: 10000/100000 trips insertados
+2026-04-08 03:31:22,558 - INFO -   Progreso: 20000/100000 trips insertados
+2026-04-08 03:31:23,900 - INFO -   Progreso: 30000/100000 trips insertados
+2026-04-08 03:31:25,250 - INFO -   Progreso: 40000/100000 trips insertados
+2026-04-08 03:31:26,596 - INFO -   Progreso: 50000/100000 trips insertados
+2026-04-08 03:31:27,941 - INFO -   Progreso: 60000/100000 trips insertados
+2026-04-08 03:31:29,304 - INFO -   Progreso: 70000/100000 trips insertados
+2026-04-08 03:31:30,660 - INFO -   Progreso: 80000/100000 trips insertados
+2026-04-08 03:31:31,969 - INFO -   Progreso: 90000/100000 trips insertados
+2026-04-08 03:31:33,111 - INFO -  100000 viajes insertados
+2026-04-08 03:31:33,121 - INFO - Generando 400000 entregas...
+2026-04-08 03:33:08,839 - INFO -   Progreso: 0/400001 deliveries insertados
+2026-04-08 03:33:14,882 - INFO -   Progreso: 50000/400001 deliveries insertados
+2026-04-08 03:33:21,827 - INFO -   Progreso: 100000/400001 deliveries insertados
+2026-04-08 03:33:27,947 - INFO -   Progreso: 150000/400001 deliveries insertados
+2026-04-08 03:33:34,240 - INFO -   Progreso: 200000/400001 deliveries insertados
+2026-04-08 03:33:40,566 - INFO -   Progreso: 250000/400001 deliveries insertados
+2026-04-08 03:33:46,981 - INFO -   Progreso: 300000/400001 deliveries insertados
+2026-04-08 03:33:53,528 - INFO -   Progreso: 350000/400001 deliveries insertados
+2026-04-08 03:33:59,681 - INFO -   Progreso: 400000/400001 deliveries insertados
+2026-04-08 03:33:59,681 - INFO -  400001 entregas insertadas
+2026-04-08 03:33:59,790 - INFO - Generando 5000 registros de mantenimiento...
+2026-04-08 03:34:00,989 - INFO -  4920 mantenimientos insertados
+2026-04-08 03:34:00,991 - INFO - 
+ RESUMEN DE GENERACIÓN DE DATOS
+2026-04-08 03:34:00,991 - INFO - ==================================================
+2026-04-08 03:34:00,992 - INFO -   vehicles: 200 registros
+2026-04-08 03:34:00,994 - INFO -   drivers: 400 registros
+2026-04-08 03:34:00,997 - INFO -   routes: 48 registros
+2026-04-08 03:34:01,004 - INFO -   trips: 100,000 registros
+2026-04-08 03:34:01,118 - INFO -   deliveries: 400,001 registros
+2026-04-08 03:34:01,119 - INFO -   maintenance: 4,920 registros
+2026-04-08 03:34:01,120 - INFO - 
+  TOTAL: 505,569 registros
+2026-04-08 03:34:01,266 - INFO - 
+  Entregas por viaje: AVG=4.0, MIN=2, MAX=6
+2026-04-08 03:34:01,267 - INFO - 
+ VALIDANDO CALIDAD DE DATOS...
+2026-04-08 03:34:01,281 - INFO -    Integridad referencial - Trips sin vehículo válido: OK
+2026-04-08 03:34:01,452 - INFO -    Integridad referencial - Deliveries sin trip válido: OK
+2026-04-08 03:34:01,462 - INFO -    Consistencia temporal - Trips con arrival < departure: OK
+2026-04-08 03:34:01,496 - INFO -    Consistencia de peso - Trips excediendo capacidad: OK
+2026-04-08 03:34:01,497 - INFO -    Entregas sin tracking number: OK
+2026-04-08 03:34:01,499 - INFO - 
+ Resumen guardado en generation_summary.json
+2026-04-08 03:34:01,500 - INFO - 
+ Conexión cerrada
