@@ -1,0 +1,283 @@
+2026-04-16 02:57:01,678 - INFO -  Pipeline ETL FleetLogix iniciado
+2026-04-16 02:57:01,679 - INFO -  ETL programado para ejecutarse diariamente a las 2:00 AM
+2026-04-16 02:57:01,680 - INFO - Presiona Ctrl+C para detener
+2026-04-16 02:57:01,680 - INFO -  Iniciando ETL - Batch ID: 1776319021
+2026-04-16 02:57:01,791 - INFO -  Conectado a PostgreSQL
+2026-04-16 02:57:01,792 - INFO - Snowflake Connector for Python Version: 4.4.0, Python Version: 3.13.0, Platform: Windows-11-10.0.26200-SP0
+2026-04-16 02:57:01,793 - INFO - Connecting to GLOBAL Snowflake domain
+2026-04-16 02:57:08,849 - ERROR -  Error en conexión: 290404 (08001): None: 404 Not Found: post yw51272.fdnhpqt.snowflakecomputing.com:443/session/v1/login-request
+2026-04-16 03:03:01,673 - INFO -  Pipeline ETL FleetLogix iniciado
+2026-04-16 03:03:01,674 - INFO -  ETL programado para ejecutarse diariamente a las 2:00 AM
+2026-04-16 03:03:01,674 - INFO - Presiona Ctrl+C para detener
+2026-04-16 03:03:01,675 - INFO -  Iniciando ETL - Batch ID: 1776319381
+2026-04-16 03:03:01,749 - INFO -  Conectado a PostgreSQL
+2026-04-16 03:03:01,750 - INFO - Snowflake Connector for Python Version: 4.4.0, Python Version: 3.13.0, Platform: Windows-11-10.0.26200-SP0
+2026-04-16 03:03:01,750 - INFO - Connecting to GLOBAL Snowflake domain
+2026-04-16 03:03:07,039 - INFO -  Conectado a Snowflake
+2026-04-16 03:03:07,039 - INFO -  Iniciando extracción de datos...
+2026-04-16 03:03:07,622 - INFO -  Extraídos 0 registros
+2026-04-16 03:03:10,510 - INFO -  Totales diarios calculados
+2026-04-16 03:03:10,959 - INFO -  Conexiones cerradas
+2026-04-16 03:03:10,959 - INFO -  ETL completado en 9.28 segundos
+2026-04-16 03:03:10,960 - INFO -  Métricas: {
+  "records_extracted": 0,
+  "records_transformed": 0,
+  "records_loaded": 0,
+  "errors": 0
+}
+2026-04-16 03:04:57,406 - INFO -  Pipeline ETL FleetLogix iniciado
+2026-04-16 03:04:57,406 - INFO -  ETL programado para ejecutarse diariamente a las 2:00 AM
+2026-04-16 03:04:57,406 - INFO - Presiona Ctrl+C para detener
+2026-04-16 03:04:57,407 - INFO -  Iniciando ETL - Batch ID: 1776319497
+2026-04-16 03:04:57,483 - INFO -  Conectado a PostgreSQL
+2026-04-16 03:04:57,484 - INFO - Snowflake Connector for Python Version: 4.4.0, Python Version: 3.13.0, Platform: Windows-11-10.0.26200-SP0
+2026-04-16 03:04:57,484 - INFO - Connecting to GLOBAL Snowflake domain
+2026-04-16 03:05:02,838 - INFO -  Conectado a Snowflake
+2026-04-16 03:05:02,839 - INFO -  Iniciando extracción de datos...
+2026-04-16 03:05:02,960 - INFO -  Extraídos 0 registros
+2026-04-16 03:05:04,271 - INFO -  Totales diarios calculados
+2026-04-16 03:05:04,768 - INFO -  Conexiones cerradas
+2026-04-16 03:05:04,768 - INFO -  ETL completado en 7.36 segundos
+2026-04-16 03:05:04,769 - INFO -  Métricas: {
+  "records_extracted": 0,
+  "records_transformed": 0,
+  "records_loaded": 0,
+  "errors": 0
+}
+2026-04-16 03:08:29,136 - INFO -  Pipeline ETL FleetLogix iniciado
+2026-04-16 03:08:29,137 - INFO -  ETL programado para ejecutarse diariamente a las 2:00 AM
+2026-04-16 03:08:29,137 - INFO - Presiona Ctrl+C para detener
+2026-04-16 03:08:29,137 - INFO -  Iniciando ETL - Batch ID: 1776319709
+2026-04-16 03:08:29,313 - INFO -  Conectado a PostgreSQL
+2026-04-16 03:08:29,314 - INFO - Snowflake Connector for Python Version: 4.4.0, Python Version: 3.13.0, Platform: Windows-11-10.0.26200-SP0
+2026-04-16 03:08:29,314 - INFO - Connecting to GLOBAL Snowflake domain
+2026-04-16 03:08:34,017 - INFO -  Conectado a Snowflake
+2026-04-16 03:08:34,017 - INFO -  Iniciando extracción de datos...
+2026-04-16 03:08:34,131 - INFO -  Extraídos 0 registros
+2026-04-16 03:08:35,591 - INFO -  Totales diarios calculados
+2026-04-16 03:08:36,062 - INFO -  Conexiones cerradas
+2026-04-16 03:08:36,062 - INFO -  ETL completado en 6.93 segundos
+2026-04-16 03:08:36,062 - INFO -  Métricas: {
+  "records_extracted": 0,
+  "records_transformed": 0,
+  "records_loaded": 0,
+  "errors": 0
+}
+2026-04-16 03:14:09,043 - INFO -  Pipeline ETL FleetLogix iniciado
+2026-04-16 03:14:09,044 - INFO -  ETL programado para ejecutarse diariamente a las 2:00 AM
+2026-04-16 03:14:09,044 - INFO - Presiona Ctrl+C para detener
+2026-04-16 03:14:09,044 - INFO -  Iniciando ETL - Batch ID: 1776320049
+2026-04-16 03:14:09,131 - INFO -  Conectado a PostgreSQL
+2026-04-16 03:14:09,132 - INFO - Snowflake Connector for Python Version: 4.4.0, Python Version: 3.13.0, Platform: Windows-11-10.0.26200-SP0
+2026-04-16 03:14:09,133 - INFO - Connecting to GLOBAL Snowflake domain
+2026-04-16 03:14:13,694 - INFO -  Conectado a Snowflake
+2026-04-16 03:14:13,695 - INFO -  Iniciando extracción de datos...
+2026-04-16 03:14:14,314 - INFO -  Extraídos 0 registros
+2026-04-16 03:14:16,105 - INFO -  Totales diarios calculados
+2026-04-16 03:14:16,566 - INFO -  Conexiones cerradas
+2026-04-16 03:14:16,566 - INFO -  ETL completado en 7.52 segundos
+2026-04-16 03:14:16,566 - INFO -  Métricas: {
+  "records_extracted": 0,
+  "records_transformed": 0,
+  "records_loaded": 0,
+  "errors": 0
+}
+2026-04-16 03:15:22,196 - INFO -  Pipeline ETL FleetLogix iniciado
+2026-04-16 03:15:22,196 - INFO -  ETL programado para ejecutarse diariamente a las 2:00 AM
+2026-04-16 03:15:22,197 - INFO - Presiona Ctrl+C para detener
+2026-04-16 03:15:22,197 - INFO -  Iniciando ETL - Batch ID: 1776320122
+2026-04-16 03:15:22,271 - INFO -  Conectado a PostgreSQL
+2026-04-16 03:15:22,338 - INFO - Snowflake Connector for Python Version: 4.4.0, Python Version: 3.13.0, Platform: Windows-11-10.0.26200-SP0
+2026-04-16 03:15:22,339 - INFO - Connecting to GLOBAL Snowflake domain
+2026-04-16 03:15:27,123 - INFO -  Conectado a Snowflake
+2026-04-16 03:15:27,124 - INFO -  Iniciando extracción de datos...
+2026-04-16 03:15:37,305 - INFO -  Extraídos 395589 registros
+2026-04-16 03:15:37,306 - INFO -  Iniciando transformación de datos...
+2026-04-16 03:15:37,846 - INFO -  Transformados 220519 registros
+2026-04-16 03:15:37,847 - INFO -  Cargando dimensiones...
+2026-04-16 03:15:42,202 - ERROR -  Error cargando dimensiones: 100072 (22000): 01c3bdd7-0009-19cc-0005-0f3a0004b4b2: DML operation to table DIM_CUSTOMER failed on column CUSTOMER_KEY with error: NULL result in a non-nullable column
+2026-04-16 03:15:42,501 - INFO -  Cargando tabla de hechos...
+2026-04-16 03:18:14,375 - INFO -  Pipeline ETL FleetLogix iniciado
+2026-04-16 03:18:14,375 - INFO -  ETL programado para ejecutarse diariamente a las 2:00 AM
+2026-04-16 03:18:14,376 - INFO - Presiona Ctrl+C para detener
+2026-04-16 03:18:14,376 - INFO -  Iniciando ETL - Batch ID: 1776320294
+2026-04-16 03:18:14,454 - INFO -  Conectado a PostgreSQL
+2026-04-16 03:18:14,537 - INFO - Snowflake Connector for Python Version: 4.4.0, Python Version: 3.13.0, Platform: Windows-11-10.0.26200-SP0
+2026-04-16 03:18:14,538 - INFO - Connecting to GLOBAL Snowflake domain
+2026-04-16 03:18:20,893 - INFO -  Conectado a Snowflake
+2026-04-16 03:18:20,893 - INFO -  Iniciando extracción de datos...
+2026-04-16 03:18:31,415 - INFO -  Extraídos 395589 registros
+2026-04-16 03:18:31,415 - INFO -  Iniciando transformación de datos...
+2026-04-16 03:18:31,951 - INFO -  Transformados 220519 registros
+2026-04-16 03:18:31,952 - INFO -  Cargando dimensiones...
+2026-04-16 03:18:35,238 - ERROR -  Error cargando dimensiones: 100072 (22000): 01c3bdda-0009-19cc-0005-0f3a0004b4d2: DML operation to table DIM_CUSTOMER failed on column CUSTOMER_KEY with error: NULL result in a non-nullable column
+2026-04-16 03:18:35,478 - INFO -  Cargando tabla de hechos...
+2026-04-16 03:21:18,613 - ERROR -  Error cargando hechos: 001795 (42601): 01c3bddb-0009-19cc-0005-0f3a0004b4e6: SQL compilation error: error line 10 at position 18
+maximum number of expressions in a list exceeded, expected at most 200,000, got 220,519
+2026-04-16 03:21:20,352 - INFO -  Totales diarios calculados
+2026-04-16 03:21:20,819 - INFO -  Conexiones cerradas
+2026-04-16 03:21:20,820 - INFO -  ETL completado en 186.44 segundos
+2026-04-16 03:21:20,820 - INFO -  Métricas: {
+  "records_extracted": 395589,
+  "records_transformed": 220519,
+  "records_loaded": 0,
+  "errors": 2
+}
+2026-04-16 03:23:31,503 - INFO -  Pipeline ETL FleetLogix iniciado
+2026-04-16 03:23:31,504 - INFO -  ETL programado para ejecutarse diariamente a las 2:00 AM
+2026-04-16 03:23:31,504 - INFO - Presiona Ctrl+C para detener
+2026-04-16 03:23:31,505 - INFO -  Iniciando ETL - Batch ID: 1776320611
+2026-04-16 03:23:31,575 - INFO -  Conectado a PostgreSQL
+2026-04-16 03:23:31,647 - INFO - Snowflake Connector for Python Version: 4.4.0, Python Version: 3.13.0, Platform: Windows-11-10.0.26200-SP0
+2026-04-16 03:23:31,648 - INFO - Connecting to GLOBAL Snowflake domain
+2026-04-16 03:23:36,270 - INFO -  Conectado a Snowflake
+2026-04-16 03:23:36,270 - INFO -  Iniciando extracción de datos...
+2026-04-16 03:23:36,578 - INFO -  Extraídos 0 registros
+2026-04-16 03:23:37,949 - INFO -  Totales diarios calculados
+2026-04-16 03:23:38,414 - INFO -  Conexiones cerradas
+2026-04-16 03:23:38,415 - INFO -  ETL completado en 6.91 segundos
+2026-04-16 03:23:38,415 - INFO -  Métricas: {
+  "records_extracted": 0,
+  "records_transformed": 0,
+  "records_loaded": 0,
+  "errors": 0
+}
+2026-04-16 03:23:55,164 - INFO -  Pipeline ETL FleetLogix iniciado
+2026-04-16 03:23:55,165 - INFO -  ETL programado para ejecutarse diariamente a las 2:00 AM
+2026-04-16 03:23:55,165 - INFO - Presiona Ctrl+C para detener
+2026-04-16 03:23:55,165 - INFO -  Iniciando ETL - Batch ID: 1776320635
+2026-04-16 03:23:55,241 - INFO -  Conectado a PostgreSQL
+2026-04-16 03:23:55,310 - INFO - Snowflake Connector for Python Version: 4.4.0, Python Version: 3.13.0, Platform: Windows-11-10.0.26200-SP0
+2026-04-16 03:23:55,311 - INFO - Connecting to GLOBAL Snowflake domain
+2026-04-16 03:23:59,975 - INFO -  Conectado a Snowflake
+2026-04-16 03:23:59,976 - INFO -  Iniciando extracción de datos...
+2026-04-16 03:24:00,154 - INFO -  Extraídos 0 registros
+2026-04-16 03:24:01,527 - INFO -  Totales diarios calculados
+2026-04-16 03:24:02,001 - INFO -  Conexiones cerradas
+2026-04-16 03:24:02,002 - INFO -  ETL completado en 6.84 segundos
+2026-04-16 03:24:02,002 - INFO -  Métricas: {
+  "records_extracted": 0,
+  "records_transformed": 0,
+  "records_loaded": 0,
+  "errors": 0
+}
+2026-04-16 03:24:57,571 - INFO -  Pipeline ETL FleetLogix iniciado
+2026-04-16 03:24:57,572 - INFO -  ETL programado para ejecutarse diariamente a las 2:00 AM
+2026-04-16 03:24:57,572 - INFO - Presiona Ctrl+C para detener
+2026-04-16 03:24:57,572 - INFO -  Iniciando ETL - Batch ID: 1776320697
+2026-04-16 03:24:57,647 - INFO -  Conectado a PostgreSQL
+2026-04-16 03:24:57,714 - INFO - Snowflake Connector for Python Version: 4.4.0, Python Version: 3.13.0, Platform: Windows-11-10.0.26200-SP0
+2026-04-16 03:24:57,715 - INFO - Connecting to GLOBAL Snowflake domain
+2026-04-16 03:25:02,318 - INFO -  Conectado a Snowflake
+2026-04-16 03:25:02,318 - INFO -  Iniciando extracción de datos...
+2026-04-16 03:25:02,495 - INFO -  Extraídos 0 registros
+2026-04-16 03:25:03,840 - INFO -  Totales diarios calculados
+2026-04-16 03:25:04,296 - INFO -  Conexiones cerradas
+2026-04-16 03:25:04,296 - INFO -  ETL completado en 6.72 segundos
+2026-04-16 03:25:04,297 - INFO -  Métricas: {
+  "records_extracted": 0,
+  "records_transformed": 0,
+  "records_loaded": 0,
+  "errors": 0
+}
+2026-04-16 03:26:38,438 - INFO -  Pipeline ETL FleetLogix iniciado
+2026-04-16 03:26:38,439 - INFO -  ETL programado para ejecutarse diariamente a las 2:00 AM
+2026-04-16 03:26:38,439 - INFO - Presiona Ctrl+C para detener
+2026-04-16 03:26:38,440 - INFO -  Iniciando ETL - Batch ID: 1776320798
+2026-04-16 03:26:38,618 - INFO -  Conectado a PostgreSQL
+2026-04-16 03:26:38,688 - INFO - Snowflake Connector for Python Version: 4.4.0, Python Version: 3.13.0, Platform: Windows-11-10.0.26200-SP0
+2026-04-16 03:26:38,689 - INFO - Connecting to GLOBAL Snowflake domain
+2026-04-16 03:26:43,230 - INFO -  Conectado a Snowflake
+2026-04-16 03:26:43,231 - INFO -  Iniciando extracción de datos...
+2026-04-16 03:26:43,410 - INFO -  Extraídos 0 registros
+2026-04-16 03:26:44,776 - INFO -  Totales diarios calculados
+2026-04-16 03:26:45,230 - INFO -  Conexiones cerradas
+2026-04-16 03:26:45,230 - INFO -  ETL completado en 6.79 segundos
+2026-04-16 03:26:45,230 - INFO -  Métricas: {
+  "records_extracted": 0,
+  "records_transformed": 0,
+  "records_loaded": 0,
+  "errors": 0
+}
+2026-04-16 03:27:15,873 - INFO -  Pipeline ETL FleetLogix iniciado
+2026-04-16 03:27:15,874 - INFO -  ETL programado para ejecutarse diariamente a las 2:00 AM
+2026-04-16 03:27:15,874 - INFO - Presiona Ctrl+C para detener
+2026-04-16 03:27:15,874 - INFO -  Iniciando ETL - Batch ID: 1776320835
+2026-04-16 03:27:16,045 - INFO -  Conectado a PostgreSQL
+2026-04-16 03:27:16,111 - INFO - Snowflake Connector for Python Version: 4.4.0, Python Version: 3.13.0, Platform: Windows-11-10.0.26200-SP0
+2026-04-16 03:27:16,112 - INFO - Connecting to GLOBAL Snowflake domain
+2026-04-16 03:27:20,803 - INFO -  Conectado a Snowflake
+2026-04-16 03:27:20,803 - INFO -  Iniciando extracción de datos...
+2026-04-16 03:27:21,064 - INFO -  Extraídos 0 registros
+2026-04-16 03:27:22,379 - INFO -  Totales diarios calculados
+2026-04-16 03:27:22,809 - INFO -  Conexiones cerradas
+2026-04-16 03:27:22,810 - INFO -  ETL completado en 6.94 segundos
+2026-04-16 03:27:22,810 - INFO -  Métricas: {
+  "records_extracted": 0,
+  "records_transformed": 0,
+  "records_loaded": 0,
+  "errors": 0
+}
+2026-04-16 03:30:27,205 - INFO -  Pipeline ETL FleetLogix iniciado
+2026-04-16 03:30:27,206 - INFO -  ETL programado para ejecutarse diariamente a las 2:00 AM
+2026-04-16 03:30:27,206 - INFO - Presiona Ctrl+C para detener
+2026-04-16 03:30:27,206 - INFO -  Iniciando ETL - Batch ID: 1776321027
+2026-04-16 03:30:27,278 - INFO -  Conectado a PostgreSQL
+2026-04-16 03:30:27,346 - INFO - Snowflake Connector for Python Version: 4.4.0, Python Version: 3.13.0, Platform: Windows-11-10.0.26200-SP0
+2026-04-16 03:30:27,347 - INFO - Connecting to GLOBAL Snowflake domain
+2026-04-16 03:30:32,998 - INFO -  Conectado a Snowflake
+2026-04-16 03:30:32,998 - INFO -  Iniciando extracción de datos...
+2026-04-16 03:30:33,283 - INFO -  Extraídos 0 registros
+2026-04-16 03:30:35,036 - INFO -  Totales diarios calculados
+2026-04-16 03:30:35,579 - INFO -  Conexiones cerradas
+2026-04-16 03:30:35,579 - INFO -  ETL completado en 8.37 segundos
+2026-04-16 03:30:35,580 - INFO -  Métricas: {
+  "records_extracted": 0,
+  "records_transformed": 0,
+  "records_loaded": 0,
+  "errors": 0
+}
+2026-04-16 03:32:14,592 - INFO -  Pipeline ETL FleetLogix iniciado
+2026-04-16 03:32:14,593 - INFO -  ETL programado para ejecutarse diariamente a las 2:00 AM
+2026-04-16 03:32:14,593 - INFO - Presiona Ctrl+C para detener
+2026-04-16 03:32:14,593 - INFO -  Iniciando ETL - Batch ID: 1776321134
+2026-04-16 03:32:14,663 - INFO -  Conectado a PostgreSQL
+2026-04-16 03:32:14,732 - INFO - Snowflake Connector for Python Version: 4.4.0, Python Version: 3.13.0, Platform: Windows-11-10.0.26200-SP0
+2026-04-16 03:32:14,733 - INFO - Connecting to GLOBAL Snowflake domain
+2026-04-16 03:32:19,388 - INFO -  Conectado a Snowflake
+2026-04-16 03:32:19,388 - INFO -  Iniciando extracción de datos...
+2026-04-16 03:32:19,510 - INFO -  Extraídos 1000 registros
+2026-04-16 03:32:19,511 - INFO -  Iniciando transformación de datos...
+2026-04-16 03:32:19,537 - INFO -  Transformados 542 registros
+2026-04-16 03:32:19,538 - INFO -  Cargando dimensiones...
+2026-04-16 03:32:21,681 - ERROR -  Error cargando dimensiones: 100072 (22000): 01c3bde8-0009-19cc-0005-0f3a0004b546: DML operation to table DIM_CUSTOMER failed on column CUSTOMER_KEY with error: NULL result in a non-nullable column
+2026-04-16 03:32:21,930 - INFO -  Cargando tabla de hechos...
+2026-04-16 03:32:23,420 - INFO -  Cargados 542 registros en fact_deliveries
+2026-04-16 03:32:24,726 - INFO -  Totales diarios calculados
+2026-04-16 03:32:25,170 - INFO -  Conexiones cerradas
+2026-04-16 03:32:25,170 - INFO -  ETL completado en 10.58 segundos
+2026-04-16 03:32:25,171 - INFO -  Métricas: {
+  "records_extracted": 1000,
+  "records_transformed": 542,
+  "records_loaded": 542,
+  "errors": 1
+}
+2026-04-16 03:35:40,598 - INFO -  Pipeline ETL FleetLogix iniciado
+2026-04-16 03:35:40,598 - INFO -  ETL programado para ejecutarse diariamente a las 2:00 AM
+2026-04-16 03:35:40,598 - INFO - Presiona Ctrl+C para detener
+2026-04-16 03:35:40,599 - INFO -  Iniciando ETL - Batch ID: 1776321340
+2026-04-16 03:35:40,669 - INFO -  Conectado a PostgreSQL
+2026-04-16 03:35:40,737 - INFO - Snowflake Connector for Python Version: 4.4.0, Python Version: 3.13.0, Platform: Windows-11-10.0.26200-SP0
+2026-04-16 03:35:40,738 - INFO - Connecting to GLOBAL Snowflake domain
+2026-04-16 03:35:45,210 - INFO -  Conectado a Snowflake
+2026-04-16 03:35:45,211 - INFO -  Iniciando extracción de datos...
+2026-04-16 03:35:45,390 - INFO -  Extraídos 0 registros
+2026-04-16 03:35:46,552 - INFO -  Totales diarios calculados
+2026-04-16 03:35:47,010 - INFO -  Conexiones cerradas
+2026-04-16 03:35:47,010 - INFO -  ETL completado en 6.41 segundos
+2026-04-16 03:35:47,011 - INFO -  Métricas: {
+  "records_extracted": 0,
+  "records_transformed": 0,
+  "records_loaded": 0,
+  "errors": 0
+}
