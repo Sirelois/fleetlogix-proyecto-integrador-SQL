@@ -158,3 +158,8 @@ y productividad por conductor.
 - No se permiten tiempos de entrega negativos
 - Pesos de paquetes dentro de rango válido (0-10.000 kg)
 - Control de errores en cada etapa del pipeline con logging detallado
+
+
+## Evidencia - Snowflake
+
+![Tablas en Snowflake](Snowflake_evidence.png)

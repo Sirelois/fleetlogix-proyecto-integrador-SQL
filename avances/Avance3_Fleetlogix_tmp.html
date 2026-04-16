@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Avance3_Fleetlogix.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> or <div class="page"></div> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="avance-3---fleetlogix-data-warehouse-y-pipeline-etl">Avance 3 - FleetLogix: Data Warehouse y Pipeline ETL</h1>
+<h2 id="contexto">Contexto</h2>
+<p>Con la base operacional poblada y las queries SQL optimizadas, este avance da el salto
+de un modelo OLTP a un modelo analítico. Se diseña e implementa un Data Warehouse en
+Snowflake con modelo estrella, y se construye un pipeline ETL automatizado que extrae
+datos de PostgreSQL, los transforma calculando métricas clave, y los carga en Snowflake
+de forma programada.</p>
+<hr>
+<h2 id="modelo-estrella">Modelo Estrella</h2>
+<p>El modelo dimensional de FleetLogix se organiza en torno a una tabla central de hechos
+y 6 dimensiones de contexto.</p>
+<h3 id="tabla-de-hechos-fact_deliveries">Tabla de Hechos: <code>fact_deliveries</code></h3>
+<p>Cada fila representa una entrega completada. Contiene las métricas clave del negocio:</p>
+<ul>
+<li><code>delivery_time_minutes</code> — tiempo total de entrega</li>
+<li><code>delay_minutes</code> — minutos de retraso sobre lo programado</li>
+<li><code>fuel_consumed_liters</code> — combustible usado en el viaje</li>
+<li><code>distance_km</code> — kilómetros recorridos</li>
+<li><code>cost_per_delivery</code> — costo estimado por entrega</li>
+<li><code>revenue_per_delivery</code> — ingreso estimado por entrega</li>
+<li><code>deliveries_per_hour</code> — productividad del conductor</li>
+<li><code>fuel_efficiency_km_per_liter</code> — eficiencia del vehículo</li>
+</ul>
+<h3 id="dimensiones">Dimensiones</h3>
+<ul>
+<li><code>dim_date</code> — calendario completo con días laborables, festivos, trimestres</li>
+<li><code>dim_time</code> — horas del día para análisis por turnos</li>
+<li><code>dim_vehicle</code> — información detallada de cada vehículo con historial (SCD Tipo 2)</li>
+<li><code>dim_driver</code> — datos y desempeño de conductores con historial (SCD Tipo 2)</li>
+<li><code>dim_route</code> — detalles de rutas y geografía</li>
+<li><code>dim_customer</code> — información de clientes</li>
+</ul>
+<h3 id="decisiones-de-diseño">Decisiones de diseño</h3>
+<p>Se eligió el esquema estrella sobre el copo de nieve porque prioriza la velocidad
+de consulta sobre la normalización — ideal para dashboards y reportes analíticos.
+Se implementó SCD Tipo 2 en <code>dim_driver</code> y <code>dim_vehicle</code> para mantener trazabilidad
+histórica cuando un conductor cambia de estado o un vehículo cambia de tipo.</p>
+<hr>
+<h2 id="implementación-en-snowflake">Implementación en Snowflake</h2>
+<h3 id="configuración">Configuración</h3>
+<ul>
+<li><strong>Warehouse:</strong> <code>FLEETLOGIX_WH</code> (X-Small, auto-suspend 5 min)</li>
+<li><strong>Database:</strong> <code>FLEETLOGIX_DW</code></li>
+<li><strong>Schema:</strong> <code>ANALYTICS</code></li>
+<li><strong>Time Travel:</strong> 30 días habilitado en todas las tablas</li>
+<li><strong>Vistas seguras:</strong> <code>v_sales_deliveries</code> (solo datos de ventas) y <code>v_operations_delivables</code> (vista completa)</li>
+</ul>
+<h3 id="tablas-creadas-en-snowflake">Tablas creadas en Snowflake</h3>
+<pre class="hljs"><code><div><span class="hljs-comment"># Verificar tablas creadas en Snowflake</span>
+<span class="hljs-keyword">import</span> snowflake.connector
+<span class="hljs-keyword">from</span> dotenv <span class="hljs-keyword">import</span> load_dotenv
+<span class="hljs-keyword">import</span> os
+
+load_dotenv()
+
+conn = snowflake.connector.connect(
+    user=os.getenv(<span class="hljs-string">&#x27;SNOWFLAKE_USER&#x27;</span>),
+    password=os.getenv(<span class="hljs-string">&#x27;SNOWFLAKE_PASSWORD&#x27;</span>),
+    account=os.getenv(<span class="hljs-string">&#x27;SNOWFLAKE_ACCOUNT&#x27;</span>),
+    warehouse=os.getenv(<span class="hljs-string">&#x27;SNOWFLAKE_WAREHOUSE&#x27;</span>),
+    database=os.getenv(<span class="hljs-string">&#x27;SNOWFLAKE_DATABASE&#x27;</span>),
+    schema=os.getenv(<span class="hljs-string">&#x27;SNOWFLAKE_SCHEMA&#x27;</span>)
+)
+
+cursor = conn.cursor()
+cursor.execute(<span class="hljs-string">&quot;SHOW TABLES IN SCHEMA FLEETLOGIX_DW.ANALYTICS&quot;</span>)
+tables = cursor.fetchall()
+
+<span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;TABLAS EN SNOWFLAKE - FLEETLOGIX_DW.ANALYTICS&quot;</span>)
+<span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;=&quot;</span>*<span class="hljs-number">45</span>)
+<span class="hljs-keyword">for</span> table <span class="hljs-keyword">in</span> tables:
+    <span class="hljs-built_in">print</span>(<span class="hljs-string">f&quot;  <span class="hljs-subst">{table[<span class="hljs-number">1</span>]}</span>&quot;</span>)
+
+cursor.close()
+conn.close()
+</div></code></pre>
+<hr>
+<h2 id="pipeline-etl-automatizado">Pipeline ETL Automatizado</h2>
+<h3 id="flujo-del-pipeline">Flujo del pipeline</h3>
+<p>El pipeline sigue el patrón ETL clásico ejecutado diariamente a las 2:00 AM:</p>
+<p><strong>Extracción:</strong> Conecta a PostgreSQL y extrae las entregas completadas del día anterior
+mediante un JOIN entre <code>deliveries</code>, <code>trips</code> y <code>routes</code>.</p>
+<p><strong>Transformación:</strong> Calcula métricas derivadas como tiempo de entrega, retrasos,
+eficiencia de combustible y costo por entrega. Aplica validaciones de calidad
+(no permite tiempos negativos ni pesos fuera de rango) e implementa SCD Tipo 2
+para manejar cambios históricos en conductores y vehículos.</p>
+<p><strong>Carga:</strong> Inserta los registros transformados en <code>fact_deliveries</code> y actualiza
+las dimensiones en Snowflake. Pre-calcula totales diarios en <code>daily_totals</code>
+para acelerar reportes recurrentes.</p>
+<h3 id="automatización">Automatización</h3>
+<p>El pipeline usa la librería <code>schedule</code> para ejecutarse automáticamente cada día
+a las 2:00 AM sin intervención manual.</p>
+<h3 id="validación-de-datos-cargados">Validación de datos cargados</h3>
+<pre class="hljs"><code><div><span class="hljs-comment"># Verificar datos cargados en Snowflake</span>
+<span class="hljs-keyword">import</span> snowflake.connector
+<span class="hljs-keyword">from</span> dotenv <span class="hljs-keyword">import</span> load_dotenv
+<span class="hljs-keyword">import</span> os
+
+load_dotenv()
+
+conn = snowflake.connector.connect(
+    user=os.getenv(<span class="hljs-string">&#x27;SNOWFLAKE_USER&#x27;</span>),
+    password=os.getenv(<span class="hljs-string">&#x27;SNOWFLAKE_PASSWORD&#x27;</span>),
+    account=os.getenv(<span class="hljs-string">&#x27;SNOWFLAKE_ACCOUNT&#x27;</span>),
+    warehouse=os.getenv(<span class="hljs-string">&#x27;SNOWFLAKE_WAREHOUSE&#x27;</span>),
+    database=os.getenv(<span class="hljs-string">&#x27;SNOWFLAKE_DATABASE&#x27;</span>),
+    schema=os.getenv(<span class="hljs-string">&#x27;SNOWFLAKE_SCHEMA&#x27;</span>)
+)
+
+cursor = conn.cursor()
+
+cursor.execute(<span class="hljs-string">&quot;SELECT COUNT(*) FROM fact_deliveries&quot;</span>)
+count = cursor.fetchone()[<span class="hljs-number">0</span>]
+<span class="hljs-built_in">print</span>(<span class="hljs-string">f&quot;Registros en fact_deliveries: <span class="hljs-subst">{count:,}</span>&quot;</span>)
+
+cursor.execute(<span class="hljs-string">&quot;SELECT COUNT(*) FROM daily_totals&quot;</span>)
+count_totals = cursor.fetchone()[<span class="hljs-number">0</span>]
+<span class="hljs-built_in">print</span>(<span class="hljs-string">f&quot;Registros en daily_totals: <span class="hljs-subst">{count_totals:,}</span>&quot;</span>)
+
+cursor.close()
+conn.close()
+</div></code></pre>
+<hr>
+<h2 id="conclusiones-del-avance-3">Conclusiones del Avance 3</h2>
+<p>Se implementó exitosamente el Data Warehouse de FleetLogix en Snowflake con modelo
+estrella compuesto por 1 tabla de hechos y 6 dimensiones. El pipeline ETL automatizado
+conecta PostgreSQL con Snowflake, transformando datos operacionales en información
+analítica con métricas calculadas como eficiencia de combustible, costo por entrega
+y productividad por conductor.</p>
+<p><strong>Decisiones clave:</strong></p>
+<ul>
+<li>Esquema estrella para maximizar velocidad de consulta analítica</li>
+<li>SCD Tipo 2 en dimensiones de conductores y vehículos para trazabilidad histórica</li>
+<li>Pre-cálculo de totales diarios para acelerar dashboards ejecutivos</li>
+<li>Automatización con <code>schedule</code> para carga nocturna sin intervención manual</li>
+</ul>
+<p><strong>Validaciones implementadas:</strong></p>
+<ul>
+<li>No se permiten tiempos de entrega negativos</li>
+<li>Pesos de paquetes dentro de rango válido (0-10.000 kg)</li>
+<li>Control de errores en cada etapa del pipeline con logging detallado</li>
+</ul>
+<h2 id="evidencia---snowflake">Evidencia - Snowflake</h2>
+<p><img src="file:///c:/Users/asirc/OneDrive/Desktop/HENRY/dspt04/M2/proyecto/avances/Snowflake_evidence.png" alt="Tablas en Snowflake"></p>
+
+</body>
+</html>
